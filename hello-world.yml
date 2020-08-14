@@ -4,3 +4,5 @@
     - name: Hello Message
       debug:
         msg: "Doe mij maar {{ aantal }} {{ tekst }} !"
+      tags:
+      - test
