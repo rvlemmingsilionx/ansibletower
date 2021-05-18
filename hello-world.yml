@@ -8,3 +8,5 @@
       - test
     - pause:
         minutes: 5
+      tags:
+      - test
