@@ -9,5 +9,5 @@
     - pause:
         minutes: 5
       tags:
-      - hoi
+      - test
     
