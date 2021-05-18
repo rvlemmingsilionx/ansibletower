@@ -6,3 +6,5 @@
         msg: "Doe mij maar {{ aantal }} {{ tekst }} !"
       tags:
       - test
+    - pause:
+        minutes: 5
