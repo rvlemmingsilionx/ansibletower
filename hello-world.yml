@@ -3,7 +3,7 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "Doe mij maar {{ aantal }} {{ tekst }} !"
+        msg: "Doe mij maar {{ aantal | d('1') }} {{ tekst |d('ontstopper') }} !"
       tags:
       - test
 
